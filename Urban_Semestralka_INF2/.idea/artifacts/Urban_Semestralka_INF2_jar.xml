@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Urban_Semestralka_INF2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Urban_Semestralka_INF2_jar</output-path>
+    <root id="archive" name="Urban_Semestralka_INF2.jar">
+      <element id="module-output" name="Urban_Semestralka_INF2" />
+    </root>
+  </artifact>
+</component>

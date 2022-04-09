@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>sk.uniza.fri.Manazeri.ManazerZobrazenia</OriginalElement>
+  <nodes>
+    <node x="1472.1462585034014" y="2003.0">sk.uniza.fri.Manazeri.ManazerHrania</node>
+    <node x="1056.3090277777774" y="259.5">sk.uniza.fri.Nepriatelia.Nepriatel</node>
+    <node x="1063.7295918367345" y="1264.0">sk.uniza.fri.Nepriatelia.Goblin</node>
+    <node x="2227.1462585034014" y="1245.5">sk.uniza.fri.Povolania.Lukostrelec</node>
+    <node x="426.63130668934286" y="856.0">sk.uniza.fri.Manazeri.ManazerZobrazenia</node>
+    <node x="2416.755881519275" y="0.0">sk.uniza.fri.Povolania.Postava</node>
+    <node x="3039.1462585034014" y="1245.5">sk.uniza.fri.Povolania.Bojovnik</node>
+    <node x="616.0" y="2740.0">sk.uniza.fri.Manazeri.ManazerTlacidiel</node>
+    <node x="1960.1462585034014" y="1264.0">sk.uniza.fri.Nepriatelia.Ork</node>
+    <node x="1692.1462585034014" y="1264.0">sk.uniza.fri.Nepriatelia.Lich</node>
+    <node x="2650.1462585034014" y="1245.5">sk.uniza.fri.Povolania.Kuzelnik</node>
+    <node x="793.0420918367346" y="4885.0">sk.uniza.fri.Main</node>
+    <node x="709.5420918367346" y="4595.0">sk.uniza.fri.Hra</node>
+    <node x="1378.1462585034014" y="1264.0">sk.uniza.fri.Nepriatelia.Cerberus</node>
+    <node x="0.0" y="3108.0">sk.uniza.fri.GUI</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sk.uniza.fri.Nepriatelia.Lich" target="sk.uniza.fri.Nepriatelia.Nepriatel" relationship="GENERALIZATION">
+      <point x="0.0" y="-119.5" />
+      <point x="1816.1462585034014" y="836.0" />
+      <point x="1717.755881519275" y="836.0" />
+      <point x="1717.755881519275" y="826.0" />
+      <point x="1301.3090277777774" y="826.0" />
+      <point x="98.0" y="138.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerTlacidiel" target="sk.uniza.fri.Manazeri.ManazerZobrazenia" relationship="DEPENDENCY">
+      <point x="-62.375000000000114" y="-157.0" />
+      <point x="803.3749999999999" y="1972.0" />
+      <point x="1007.3545918367345" y="1972.0" />
+      <point x="1007.3545918367345" y="1962.0" />
+      <point x="767.8813066893429" y="1962.0" />
+      <point x="146.25" y="527.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Main" target="sk.uniza.fri.Hra" relationship="CREATE">
+      <point x="0.0" y="-64.0" />
+      <point x="0.0" y="120.0" />
+    </edge>
+    <edge source="sk.uniza.fri.Hra" target="sk.uniza.fri.GUI" relationship="TO_ONE">
+      <point x="-110.57142857142867" y="-120.0" />
+      <point x="792.4706632653059" y="4564.0" />
+      <point x="446.25" y="4564.0" />
+      <point x="148.75" y="712.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Hra" target="sk.uniza.fri.Manazeri.ManazerZobrazenia" relationship="TO_ONE">
+      <point x="-55.285714285714334" y="-120.0" />
+      <point x="847.7563775510203" y="4554.0" />
+      <point x="605.5" y="4554.0" />
+      <point x="605.5" y="1982.0" />
+      <point x="774.5798611111109" y="1982.0" />
+      <point x="774.5798611111109" y="1972.0" />
+      <point x="670.3813066893429" y="1972.0" />
+      <point x="48.75" y="527.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerHrania" target="sk.uniza.fri.Nepriatelia.Ork" relationship="CREATE">
+      <point x="49.625" y="-342.5" />
+      <point x="1720.2712585034014" y="1942.0" />
+      <point x="2083.1462585034014" y="1942.0" />
+      <point x="0.0" y="119.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Nepriatelia.Goblin" target="sk.uniza.fri.Nepriatelia.Nepriatel" relationship="GENERALIZATION">
+      <point x="0.0" y="-119.5" />
+      <point x="1200.2295918367345" y="836.0" />
+      <point x="1717.755881519275" y="836.0" />
+      <point x="1717.755881519275" y="826.0" />
+      <point x="1301.3090277777774" y="826.0" />
+      <point x="98.0" y="138.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerHrania" target="sk.uniza.fri.Povolania.Kuzelnik" relationship="CREATE">
+      <point x="148.875" y="-342.5" />
+      <point x="1819.5212585034014" y="1972.0" />
+      <point x="2834.6462585034014" y="1972.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="sk.uniza.fri.Hra" target="sk.uniza.fri.Manazeri.ManazerTlacidiel" relationship="TO_ONE">
+      <point x="55.28571428571422" y="-120.0" />
+      <point x="958.3278061224488" y="4564.0" />
+      <point x="871.0" y="4564.0" />
+      <point x="871.0" y="3086.0" />
+      <point x="990.25" y="3086.0" />
+      <point x="124.75" y="157.0" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerZobrazenia" target="sk.uniza.fri.GUI" relationship="DEPENDENCY">
+      <point x="-146.25" y="527.5" />
+      <point x="475.38130668934286" y="1972.0" />
+      <point x="192.83333333333326" y="1972.0" />
+      <point x="192.83333333333326" y="3086.0" />
+      <point x="99.16666666666652" y="3086.0" />
+      <point x="-198.33333333333348" y="-712.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerHrania" target="sk.uniza.fri.Povolania.Bojovnik" relationship="CREATE">
+      <point x="181.95833333333348" y="-342.5" />
+      <point x="1852.604591836735" y="1982.0" />
+      <point x="3226.6462585034014" y="1982.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerHrania" target="sk.uniza.fri.Nepriatelia.Cerberus" relationship="CREATE">
+      <point x="-16.541666666666515" y="-342.5" />
+      <point x="1654.104591836735" y="1932.0" />
+      <point x="1525.1462585034014" y="1932.0" />
+      <point x="0.0" y="119.5" />
+    </edge>
+    <edge source="sk.uniza.fri.GUI" target="sk.uniza.fri.Manazeri.ManazerTlacidiel" relationship="DEPENDENCY">
+      <point x="198.33333333333337" y="-712.5" />
+      <point x="495.83333333333337" y="3086.0" />
+      <point x="860.0" y="3086.0" />
+      <point x="860.0" y="3076.0" />
+      <point x="740.75" y="3076.0" />
+      <point x="-124.75" y="157.0" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerHrania" target="sk.uniza.fri.Povolania.Postava" relationship="TO_ONE">
+      <point x="82.70833333333348" y="-342.5" />
+      <point x="1753.354591836735" y="1952.0" />
+      <point x="2216.6462585034014" y="1952.0" />
+      <point x="2216.6462585034014" y="826.0" />
+      <point x="2494.755881519275" y="826.0" />
+      <point x="-78.0" y="398.0" />
+    </edge>
+    <edge source="sk.uniza.fri.Povolania.Kuzelnik" target="sk.uniza.fri.Povolania.Postava" relationship="GENERALIZATION">
+      <point x="0.0" y="-138.0" />
+      <point x="2834.6462585034014" y="836.0" />
+      <point x="2881.755881519275" y="836.0" />
+      <point x="2881.755881519275" y="826.0" />
+      <point x="2650.755881519275" y="826.0" />
+      <point x="78.0" y="398.0" />
+    </edge>
+    <edge source="sk.uniza.fri.Povolania.Bojovnik" target="sk.uniza.fri.Povolania.Postava" relationship="GENERALIZATION">
+      <point x="0.0" y="-138.0" />
+      <point x="3226.6462585034014" y="836.0" />
+      <point x="2881.755881519275" y="836.0" />
+      <point x="2881.755881519275" y="826.0" />
+      <point x="2650.755881519275" y="826.0" />
+      <point x="78.0" y="398.0" />
+    </edge>
+    <edge source="sk.uniza.fri.Hra" target="sk.uniza.fri.Manazeri.ManazerZobrazenia" relationship="CREATE">
+      <point x="110.57142857142856" y="-120.0" />
+      <point x="1013.6135204081631" y="4564.0" />
+      <point x="1125.5" y="4564.0" />
+      <point x="1125.5" y="1972.0" />
+      <point x="1007.3545918367345" y="1972.0" />
+      <point x="1007.3545918367345" y="1962.0" />
+      <point x="767.8813066893429" y="1962.0" />
+      <point x="146.25" y="527.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Nepriatelia.Ork" target="sk.uniza.fri.Nepriatelia.Nepriatel" relationship="GENERALIZATION">
+      <point x="0.0" y="-119.5" />
+      <point x="2083.1462585034014" y="836.0" />
+      <point x="1717.755881519275" y="836.0" />
+      <point x="1717.755881519275" y="826.0" />
+      <point x="1301.3090277777774" y="826.0" />
+      <point x="98.0" y="138.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerZobrazenia" target="sk.uniza.fri.GUI" relationship="TO_ONE">
+      <point x="-48.75" y="527.5" />
+      <point x="572.8813066893429" y="1982.0" />
+      <point x="203.83333333333326" y="1982.0" />
+      <point x="203.83333333333326" y="3086.0" />
+      <point x="297.5" y="3086.0" />
+      <point x="0.0" y="-712.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerHrania" target="sk.uniza.fri.Povolania.Lukostrelec" relationship="CREATE">
+      <point x="115.79166666666652" y="-342.5" />
+      <point x="1786.437925170068" y="1962.0" />
+      <point x="2428.6462585034014" y="1962.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="sk.uniza.fri.Hra" target="sk.uniza.fri.GUI" relationship="CREATE">
+      <point x="-165.8571428571429" y="-120.0" />
+      <point x="737.1849489795917" y="4574.0" />
+      <point x="148.75" y="4574.0" />
+      <point x="-148.75" y="712.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerHrania" target="sk.uniza.fri.Nepriatelia.Lich" relationship="CREATE">
+      <point x="16.541666666666515" y="-342.5" />
+      <point x="1687.187925170068" y="1932.0" />
+      <point x="1816.1462585034014" y="1932.0" />
+      <point x="0.0" y="119.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerHrania" target="sk.uniza.fri.Nepriatelia.Nepriatel" relationship="TO_ONE">
+      <point x="-115.79166666666674" y="-342.5" />
+      <point x="1554.8545918367345" y="1962.0" />
+      <point x="1042.2295918367345" y="1962.0" />
+      <point x="1042.2295918367345" y="816.0" />
+      <point x="1105.3090277777774" y="816.0" />
+      <point x="-98.0" y="138.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerTlacidiel" target="sk.uniza.fri.Manazeri.ManazerHrania" relationship="DEPENDENCY">
+      <point x="187.1249999999999" y="-157.0" />
+      <point x="1052.625" y="2719.0" />
+      <point x="1769.8962585034014" y="2719.0" />
+      <point x="99.25" y="342.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerHrania" target="sk.uniza.fri.Nepriatelia.Goblin" relationship="CREATE">
+      <point x="-49.625" y="-342.5" />
+      <point x="1621.0212585034014" y="1942.0" />
+      <point x="1200.2295918367345" y="1942.0" />
+      <point x="0.0" y="119.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Nepriatelia.Cerberus" target="sk.uniza.fri.Nepriatelia.Nepriatel" relationship="GENERALIZATION">
+      <point x="0.0" y="-119.5" />
+      <point x="1525.1462585034014" y="836.0" />
+      <point x="1717.755881519275" y="836.0" />
+      <point x="1717.755881519275" y="826.0" />
+      <point x="1301.3090277777774" y="826.0" />
+      <point x="98.0" y="138.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerTlacidiel" target="sk.uniza.fri.Manazeri.ManazerHrania" relationship="TO_ONE">
+      <point x="62.374999999999886" y="-157.0" />
+      <point x="927.8749999999999" y="2709.0" />
+      <point x="1571.3962585034014" y="2709.0" />
+      <point x="-99.25" y="342.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerHrania" target="sk.uniza.fri.Nepriatelia.Nepriatel" relationship="DEPENDENCY">
+      <point x="-82.70833333333348" y="-342.5" />
+      <point x="1587.937925170068" y="1952.0" />
+      <point x="1053.2295918367345" y="1952.0" />
+      <point x="1053.2295918367345" y="826.0" />
+      <point x="1203.3090277777774" y="826.0" />
+      <point x="0.0" y="138.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerHrania" target="sk.uniza.fri.Manazeri.ManazerZobrazenia" relationship="DEPENDENCY">
+      <point x="-148.875" y="-342.5" />
+      <point x="1521.7712585034014" y="1972.0" />
+      <point x="1007.3545918367345" y="1972.0" />
+      <point x="1007.3545918367345" y="1962.0" />
+      <point x="767.8813066893429" y="1962.0" />
+      <point x="146.25" y="527.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerTlacidiel" target="sk.uniza.fri.Manazeri.ManazerZobrazenia" relationship="TO_ONE">
+      <point x="-187.1250000000001" y="-157.0" />
+      <point x="678.3749999999999" y="2719.0" />
+      <point x="774.5798611111109" y="2719.0" />
+      <point x="774.5798611111109" y="1972.0" />
+      <point x="670.3813066893429" y="1972.0" />
+      <point x="48.75" y="527.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Hra" target="sk.uniza.fri.Manazeri.ManazerTlacidiel" relationship="CREATE">
+      <point x="0.0" y="-120.0" />
+      <point x="903.0420918367346" y="4574.0" />
+      <point x="860.0" y="4574.0" />
+      <point x="860.0" y="3076.0" />
+      <point x="740.75" y="3076.0" />
+      <point x="-124.75" y="157.0" />
+    </edge>
+    <edge source="sk.uniza.fri.Hra" target="sk.uniza.fri.Manazeri.ManazerHrania" relationship="CREATE">
+      <point x="165.8571428571429" y="-120.0" />
+      <point x="1068.8992346938776" y="4574.0" />
+      <point x="1769.8962585034014" y="4574.0" />
+      <point x="99.25" y="342.5" />
+    </edge>
+    <edge source="sk.uniza.fri.Povolania.Lukostrelec" target="sk.uniza.fri.Povolania.Postava" relationship="GENERALIZATION">
+      <point x="0.0" y="-138.0" />
+      <point x="2428.6462585034014" y="836.0" />
+      <point x="2881.755881519275" y="836.0" />
+      <point x="2881.755881519275" y="826.0" />
+      <point x="2650.755881519275" y="826.0" />
+      <point x="78.0" y="398.0" />
+    </edge>
+    <edge source="sk.uniza.fri.Manazeri.ManazerHrania" target="sk.uniza.fri.Manazeri.ManazerZobrazenia" relationship="TO_ONE">
+      <point x="-181.95833333333348" y="-342.5" />
+      <point x="1488.687925170068" y="1982.0" />
+      <point x="774.5798611111109" y="1982.0" />
+      <point x="774.5798611111109" y="1972.0" />
+      <point x="670.3813066893429" y="1972.0" />
+      <point x="48.75" y="527.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7000000000000001" showDependencies="true" x="1355.1428571428569" y="1139.4285714285713" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
